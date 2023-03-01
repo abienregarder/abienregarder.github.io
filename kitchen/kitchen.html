@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;700;800&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+    <link rel="stylesheet" href="kitchen.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__flex">
+                
+                <img class="header__logo" src="img/kitchen_logo.svg"></img>
+
+                <nav class="header__menu_close">
+
+                    <div class="menu_close_login">
+                        <img class="close_login_img" src="img/header_login.svg">
+                        <div class="close_login_text">Log in</div>
+                    </div>
+
+                    <div class="menu_close_cart">
+                        <img class="close_cart_img" src="img/header_cart.svg">
+                        <div class="close_cart_count">0</div>
+                    </div>
+
+                    <div class="menu_close_hamburger">
+                        <div class="menu_close_hamburger_img"></div>
+                    </div>
+
+                </nav>
+                
+
+                <nav class="header__menu_open">
+
+                    <div class="menu_open_call">
+                        <img class="menu_open_tel_img" src="img/header_call.svg">
+                        <div class="menu_open_tel">0800 111 126</div>
+                    </div>
+
+                    <div class="menu_open_time">8:00 - 22:00</div>
+
+                    <div class="menu_open_links">
+                        <a class="header__menu_item" href="#">Delivery info</a>
+                        <a class="header__menu_item" href="#">About Us</a>
+                        <a class="header__menu_item" href="#">Restaurants</a>
+                        <a class="header__menu_item" href="#">Specialities</a>
+                    </div>
+
+                    <select class="menu_open_languages">
+                        <option class="menu_open_language">English</option>
+                        <option class="menu_open_language">Russian</option>
+                    </select>
+                    
+            
+                </nav>
+
+                
+
+            </div>
+        </div>
+    </header>
+
+    <!-- сделать: переход по ссылкам в меню, счетчик карзины, всклывающее окно логина, адекватный слайд меню -->
+
+    <main>
+        <section class="hero">
+            <div class="container">
+
+                <div class="hero__main">
+
+                        <h1 class="hero__heading">Your Food court at home</h1>
+
+                        <div class="hero__buttons">
+                            <button class="hero__button"><span>Delivery</span>
+                                Order in
+                            </button>
+
+                            <button class="hero__button"><span>Takeout</span>
+                                Grab and go
+                            </button>
+                        </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero__usp">
+
+                <div class="hero__usp_card">
+                    <img class="hero__usp_img" src="img/hero__usp_1.svg">
+                    <div class="hero_usp_text">delivery in all paris in less than 30 minutes</div>
+                </div>
+
+                <div class="hero__usp_card">
+                    <img class="hero__usp_img" src="img/hero__usp_2.svg">
+                    <div class="hero_usp_text">Free delivery from 29 euros</div>
+                </div>
+
+                <div class="hero__usp_card">
+                    <img class="hero__usp_img" src="img/hero__usp_3.svg">
+                    <div class="hero_usp_text">Only fresh and French products</div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- добавить элементы фона -->
+
+        <section class="restaurants">
+            <div class="container">
+
+                <div class="restaurants__header">
+                    <h2 class="kitchen__heading restaurants__heading">Restaurants</h2>
+                    <button class="restaurants__button">Show all</button>
+                </div>
+
+                <div class="restaurants__slider">
+
+                    <div class="restaurants__slider_cards">
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_1.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_1.svg">
+                        </div>
+                      </div>
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_2.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_2.svg">
+                        </div>
+                      </div>
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_3.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_3.svg">
+                        </div>
+                      </div>
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_4.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_4.svg">
+                        </div>
+                      </div>
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_1.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_1.svg">
+                        </div>
+                      </div>
+
+                      <div class="slider_card">
+                        <div class="slider_card_shadow">
+                            <img class="slider_card_img" src="img/rest_slider_img_2.png">
+                            <img class="slider_card_logo" src="img/rest_slider_logo_2.svg">
+                        </div>
+                      </div>
+
+                    
+                    </div>
+
+                    <div class="restaurants__slider_controls">
+                        <button class="slider_control --prev">
+                        </button>
+                        <button class="slider_control --next">
+                        </button>
+                    </div>
+
+                </div>
+
+            
+            </div>
+        </section>
+
+        <!-- не работает радиус у слайдов -->
+
+        <section class="address">
+            <div class="container">
+                <div class="adress__flex">
+
+                    <div class="adress__text">
+                        <h2 class="kitchen__heading adress__heading">Your nearest restaurants</h2>
+                        <p class="adress__par">Each kitchen works with its own delivery area to deliver food to you as soon as possible</p>
+                    </div>
+
+                    <div class="adress__search">
+                        <input class="adress__input" id="search" placeholder="Enter delivery address">
+                        <button class="adress__button">send</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="specialities">
+            <div class="container">
+
+                <div class="specialities__header">
+                    <h2 class="kitchen__heading specialities__heading">Specialities</h2>
+                    <button class="specialities__button">Show all</button>
+                </div>
+
+                
+
+                <div class="specialities__slider_cards">
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_1.svg">
+                            <div class="specialities__slider_card_heading">Bagel</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_2.svg">
+                            <div class="specialities__slider_card_heading">Burger</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_3.svg">
+                            <div class="specialities__slider_card_heading">Chiken</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_4.svg">
+                            <div class="specialities__slider_card_heading">Fish</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_5.svg">
+                            <div class="specialities__slider_card_heading">Fish’Chips</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_6.svg">
+                            <div class="specialities__slider_card_heading">Salads</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_7.svg">
+                            <div class="specialities__slider_card_heading">Pizza</div>
+                        </div>
+                    </div>
+
+                    <div class="specialities__slider_card">
+                        <div class="specialities__slider_card_shadow">
+                            <img class="specialities__slider_card_img" src="img/specialities__card_8.svg">
+                            <div class="specialities__slider_card_heading">Pasta</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+                <div class="specialities__slider_controls">
+                    <button class="specialities__slider_control --prev">
+                    </button>
+                    <button class="specialities__slider_control --next">
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- сделать слайдер когда будудет слишком хорошая жизнь -->
+
+        <section class="usp">
+            <div class="container">
+                <div class="usp__flex">
+
+                    <div class="usp__item">
+                        <div class="usp__num">1</div>
+                        <div class="usp__heading">kitchen</div>
+                    </div>
+
+                    <div class="usp__item">
+                        <div class="usp__num">11</div>
+                        <div class="usp__heading">specialties</div>
+                    </div>
+
+                    <div class="usp__item">
+                        <div class="usp__num">11</div>
+                        <div class="usp__heading">restaurants</div>
+                    </div>
+
+                    <div class="usp__item">
+                        <div class="usp__num">1</div>
+                        <div class="usp__heading">transport costs</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram">
+            <div class="container">
+                <h2 class="kitchen__heading instagram__heading">#YellowKitchens <span>in instagram</span> </h2>
+                <div class="instagram__imges">
+
+                    <img class="instagram__img" src="img/instagram_img_1.png">
+                    <img class="instagram__img" src="img/instagram_img_2.png">
+                    <img class="instagram__img" src="img/instagram_img_3.png">
+                    <img class="instagram__img" src="img/instagram_img_4.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+
+                <h2 class="kitchen__heading products__heading">Featured products</h2>
+
+                <div class="products__categories">
+
+                    <a href="" class="products__categoriy category_1">All</a>
+                    <a href="" class="products__categoriy category_2">Food</a>
+                    <a href="" class="products__categoriy category_3">Organic</a>
+                    <a href="" class="products__categoriy category_4">Fruits</a>
+                    <a href="" class="products__categoriy category_5">Health</a>
+                    <a href="" class="products__categoriy category_6">Seafood</a>
+                                    
+                </div>
+
+                <div class="products__cards">
+
+                    <div class="products__card products__cards_1">
+                        <img class="products__card_img" src="img/products__card_1.png">
+                        
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Red Pepper</h3></a>
+                            <div class="products__card_price">$18.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products__card products__cards_2">
+                        <img class="products__card_img" src="img/products__card_2.png">
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Cabbage</h3></a>
+                            <div class="products__card_price">$11.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products__card products__cards_3">
+                        <img class="products__card_img" src="img/products__card_3.png">
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Meat Beef</h3></a>
+                            <div class="products__card_price">$35.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products__card products__cards_4">
+                        <img class="products__card_img" src="img/products__card_4.png">
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Tomato</h3></a>
+                            <div class="products__card_price">$6.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products__card products__cards_5">
+                        <img class="products__card_img" src="img/products__card_5.png">
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Watermelon</h3></a>
+                            <div class="products__card_price">$11.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products__card products__cards_6">
+                        <img class="products__card_img" src="img/products__card_6.png">
+                        <div class="products__card_heading">
+                            <a class="products__card_title_link"><h3 class="products__card_title">Garlic</h3></a>
+                            <div class="products__card_price">$2.00</div>
+                            <button class="products__card_cart_button">add to cart</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="modal-fade">
+        <section class="login_modal">
+            <div class="container">
+                
+                <h2 class="login_modal__heading kitchen__heading">Login</h2>
+
+                <div class="login_modal__flex">
+                    <input class="login_modal__input login_modal__input_name" id="username" placeholder="Username">
+                    <input class="login_modal__input login_modal__input_pass" id="password" placeholder="Password" type="password">
+                    
+
+                    <div class="login_modal__input_checkbox">
+                        <input type="checkbox" class="input_pass_checkbox" id="checkbox">
+                        <label class="label_pass_checkbox">show password</label>
+                    </div>
+
+                    <button class="login_modal__button">login</button>
+                </div>
+                
+            </div>
+         </section>
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
+    <script src="kitchen.js"></script>
+</body>
+</html>

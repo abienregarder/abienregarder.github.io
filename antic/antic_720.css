@@ -1,0 +1,453 @@
+.container {
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #534B42;
+
+}
+
+/* header */
+.header__logo{
+    background-image: url(./img/logo_max.svg);
+    min-width: 94px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 300px; */
+    width: 1144px;
+    width: 1550px;
+    visibility: visible;
+    opacity: 1;
+    position: unset;
+    background: none;
+    flex-direction: row;
+}
+
+.hamburger{
+    display: none;
+}
+
+.menu_main_item {
+    font-family: 'Varta', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    color: #706458;
+}
+
+.menu_button {
+    background-image: url(./img/contact_button.svg);
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* margin-left: 450px; */
+    background-repeat: no-repeat;
+}
+
+.menu_main {
+    display: flex;
+    gap: 25px;
+    color: #706458;
+    flex-direction: row;
+}
+
+
+/* hero */
+
+.hero__left {
+    text-align: left;
+    width: 40%;
+    /* width: 400px; */
+}
+
+
+.hero__title {
+    color: #A06056;
+    font-size: 50px;
+    line-height: 70px;
+    padding: 0 0 30px 0;
+}
+
+.hero__label {
+    color: #A06056;
+    padding: 0 0 50px 0;
+}
+
+.hero__par {
+    color: rgba(112, 100, 88, 0.9);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 31px;
+    padding: 0 0 48px 0;
+}
+
+.hero__button {
+    background-image: url(./img/hero_scroll_max.svg);
+    background-color: transparent;
+    border: none;
+    min-width: 50px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+
+.hero__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    /* padding: 200px; */
+    max-height: 900px;
+    /* min-height: 900px; */
+}
+
+.hero {
+    background-image: none;
+    padding: 200px 0 0 0;
+    margin: 0;
+    height: 100vh;
+    max-height: 900px;
+    /* margin-bottom: 134px; */
+    padding-bottom: 777px;
+}
+
+
+/* rooms */
+
+.rooms__slide_title{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.rooms__slide_img {
+    min-height: 350px;
+}
+
+.rooms__slide {
+    max-width: 460px;
+    width: 100%;
+}
+
+.rooms__slider_flex {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rooms_par {
+    width: 20%;
+    padding-top: 12px;
+    min-width: 148px;
+}
+
+.container.--slider1 {
+    padding-right: 0;
+}
+
+.rooms__controls {
+    margin-left: 34px;
+}
+
+
+.rooms__slidercontrols {
+    justify-content: flex-start;
+}
+
+.slide_count {
+    order: 1;
+    width: 193px;
+}
+
+/* design */
+
+
+.design__side {
+    display: flex;
+    gap: 48px;
+    padding: 64px 0 70px;
+}
+
+.design__header {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.design_services {
+    /* padding: 64px 0; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    /* flex-flow: column wrap; */
+    width: 50%;
+    min-width: 300px;
+}
+
+.design__info {
+    /* max-width: 258px; */
+    width: 45%;
+}
+
+.design__par {
+    text-align: inherit;
+    margin-bottom: 30px;
+}
+
+
+.info_title {
+    margin-bottom: 12px;
+}
+
+.design__title {
+    padding-bottom: 58px;
+}
+
+/* subscribe */
+
+.subscribe__title {
+    padding: 0 0 16px 0;
+}
+
+.subscribe__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 0 64px;
+    flex-wrap: wrap;
+}
+
+.subscribe__form {
+    min-width: 300px;
+    padding: 0;
+}
+
+button.subscribe__button {
+    min-width: 150px;
+}
+
+.subscribe__input {
+    display: flex;
+    gap: 16px;
+}
+
+/* Inspirations */
+
+section.inspirations {
+    padding-bottom: 70px;
+}
+
+
+button.inspirations__control.--prev {
+    background-image: url(./img/inspirations_navig_prev.svg);
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+button.inspirations__control.--next {
+    background-image: url(./img/inspirations_navig_next.svg);
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+} 
+
+.inspirations__slider_lable {
+    display: none;
+}
+
+.inspirations__imges {
+    min-width: 458px;
+    min-height: 550px;
+}
+
+.container.--slider2 {
+    padding-right: 0;
+}
+
+.inspirations__flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.inspirations__header {
+    order: 2;
+    display: flex;
+    gap: 40px;
+    order: 1;
+    width: 100%;
+}
+
+
+.inspirations__slider {
+    order: 1;
+}
+
+.slider_groups_flex {
+    display: block;
+}
+
+.inspirations__par {
+    margin: 0 100px 50px;
+}
+
+.inspirations__slide_count {
+    display: inline-block;
+    order: 2;
+    font-family: 'Varta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(112, 100, 88, 0.9);
+    opacity: 0.5;
+}
+
+.inspirations__header_flex {
+    display: flex;
+    order: 2;
+    justify-content: space-between;
+}
+
+.inspirations__slidercontrols {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.inspirations__controls {
+    display: inline-flex;
+}
+
+h2.inspirations__title {
+    width: 20%;
+}
+/* footer_menu */
+
+.footer__title{
+    color: #534B42;
+    padding-bottom: 22px;
+}
+
+.footer__menu_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer__col_flex {
+    display: flex;
+    gap: 48px;
+}
+
+section.footer__menu {
+    padding: 70px 0 48px;
+    margin: 0;
+}
+
+.footer__col.col_respect {
+    width: 30%;
+    margin-bottom: 0;
+    /* min-width: 235px; */
+}
+
+.col_rooms {
+    order: 2;
+}
+
+.col_products {
+    order: 1;
+}
+
+.col_services {
+    order: 3;
+}
+
+.col_about {
+    order: 4;
+}
+
+.footer__logo {
+    min-width: 94px;
+    margin: 0;
+    
+}
+
+.footer__logo {
+    display: inline-block;
+}
+
+.title_respect{
+    display: inline-block;
+}
+
+
+.col_list {
+    gap: 12px;
+}
+
+/* footer__copyright */
+
+
+
+.copyright_settings {
+    order: 3;
+    margin: 0;
+    gap: 30px;
+}
+
+.footer__copyright_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.copyright_dog {
+    order: 1;
+    margin: 0;
+}
+
+.copyright_images {
+    order: 2;
+}
+
+section.footer__copyright {
+    margin-bottom: 64px;
+}
+
+
+
+.footer__col {
+    margin: 0;
+}
+
+p.respect_par {
+    padding: 25px 0;
+}
+
